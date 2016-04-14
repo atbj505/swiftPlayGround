@@ -159,7 +159,7 @@ enum TransmissionType {
     case Manual5Gear
     case Automatic
 }
-//结构体 结构体可以有方法
+//结构体 结构体可以有方法 结构体可以在创建对象的时候传参数
 struct Vehicle {
     var fuel : FuelType
     var transmission : TransmissionType
